@@ -1,0 +1,31 @@
+#The method .title() causes the string to be displayed in title script ie: first letter of each world capital and the rest lower case.
+
+
+name = "ada lovelace"
+print(name.title())
+print (name)
+
+#Some other methods for case
+
+print(name.upper())
+print(name.lower())
+
+""The lower() method is particularly useful for storing data. Many times
+you won’t want to trust the capitalization that your users provide, so you’ll
+convert strings to lowercase before storing them. Then when you want to
+display the information, you’ll use the case that makes the most sense for
+each string.""
+
+#Adding tab to a string and making a new line.
+
+print ('I start here')
+print ('\tI start here')
+print ('I take up\ntwo lines')
+
+favorite_language = 'python '
+favorite_language
+
+favorite_language.rstrip()
+
+favorite_language = favorite_language.rstrip()
+favorite_language
